@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+IFS=$'\n\t '
+
+export HOSTPORT=33060
+export PASS=${1-root}
+
+dsn="-h${HOST} -uroot -p${PASS} -P${HOSTPORT}"
+db_prefix="delme"
+
+for i in `seq 1 1000`; do
+
+    dbname="${db_prefix}_$i"
+
+    echo "Creating ${dbname}"
+
+    mysql ${dsn} -e "DROP DATABASE IF EXISTS \`${dbname}\`; CREATE DATABASE \`${dbname}\`;" || ( date; pinata diagnose; exit )
+
+done

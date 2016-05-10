@@ -1,0 +1,92 @@
+May 10 12:54:27 devi Docker[com.docker.xhyve][34914] <Notice>: Starting xhyve
+May 10 12:54:27 devi Docker[com.docker.driver.amd64-linux][34912] <Notice>: May 10 12:54:27  Docker[34914] <Notice>: Starting xhyve
+May 10 12:54:27 devi Docker[com.docker.slirp][34911] <Notice>: PPP.negotiate: received ((magic VMN3T)(version 13)(commit b4d942b304b7d7d0ee48d96e3b424ccfbcceca89))
+May 10 12:54:27 devi Docker[com.docker.slirp][34911] <Notice>: PPP.negotiate: received (Ethernet 9f274149-68e8-4b0b-845b-016c6e7c66a2)
+May 10 12:54:27 devi Docker[com.docker.slirp][34911] <Notice>: PPP.negotiate: sending ((mtu 1500)(max_packet_size 1550)(client_macaddr c0:ff:ee:c0:ff:ee))
+May 10 12:54:27 devi Docker[com.docker.slirp][34911] <Notice>: PPP.listen: called a second time: doing nothing
+May 10 12:54:27 devi Docker[com.docker.slirp][34911] <Notice>: TCP/IP ready
+May 10 12:54:27 devi Docker[com.docker.driver.amd64-linux][34912] <Notice>: mirage_block_open file:///Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/Docker.qcow2 buffered = true
+May 10 12:54:27 devi Docker[com.docker.driver.amd64-linux][34912] <Notice>: mirage_block_open returning 0
+May 10 12:54:27 devi Docker[com.docker.driver.amd64-linux][34912] <Notice>: mirage_block_stat
+May 10 12:54:27 devi Docker[com.docker.driver.amd64-linux][34912] <Notice>: vsock init 7:0 = /var/tmp/com.docker.vsock, guest_cid = 3
+May 10 12:54:29 devi Docker[com.docker.driver.amd64-linux][34912] <Notice>: Docker is not responding: waiting 0.5s
+May 10 12:54:29 devi Docker[com.docker.driver.amd64-linux][34912] <Notice>: Docker is not responding: waiting 0.5s
+May 10 12:54:30 devi Docker[com.docker.driver.amd64-linux][34912] <Notice>: Docker is not responding: waiting 0.5s
+May 10 12:54:30 devi Docker[com.docker.driver.amd64-linux][34912] <Notice>: Docker is not responding: waiting 0.5s
+May 10 12:54:31 devi Docker[com.docker.driver.amd64-linux][34912] <Notice>: Docker is not responding: waiting 0.5s
+May 10 12:54:31 devi Docker[com.docker.osxfs][34910] <Error>: transfused: mount
+May 10 12:54:31 devi Docker[com.docker.osxfs][34910] <Error>: transfused: /bin/fusermount
+May 10 12:54:31 devi Docker[com.docker.osxfs][34910] <Error>: transfused: -o
+May 10 12:54:31 devi Docker[com.docker.osxfs][34910] <Error>: transfused: allow_other,max_read=1048576,subtype=osxfs
+May 10 12:54:31 devi Docker[com.docker.osxfs][34910] <Error>: transfused: /Mac
+May 10 12:54:31 devi Docker[com.docker.osxfs][34910] <Error>: transfused:
+May 10 12:54:31 devi Docker[com.docker.osxfs][34910] <Notice>: osxfs tracing: OFF
+May 10 12:54:33 devi Docker[com.docker.driver.amd64-linux][34912] <Notice>: Docker is responding
+May 10 12:54:33 devi Docker[com.docker.vmnetd][34928] <Notice>: EOF reading packet from Unix domain socket: closing
+May 10 12:54:33 devi Docker[com.docker.vmnetd][34928] <Critical>: Failed to read hello from client
+May 10 12:54:33 devi Docker[com.docker.backend][30453] <Notice>: VM has started at 2016-05-10 12:54:33 -0700 PDT
+May 10 12:54:33 devi Docker[com.docker.app][30434] <Notice>: dockerState = running
+May 10 12:54:47 devi Docker[com.docker.vmnetd][34998] <Notice>: EOF reading packet from Unix domain socket: closing
+May 10 12:54:47 devi Docker[com.docker.vmnetd][34998] <Critical>: Failed to read hello from client
+May 10 12:54:53 devi Docker[com.docker.slirp][34911] <Notice>: Creating resource Entry(tcp:0.0.0.0:33060)
+May 10 12:54:53 devi Docker[com.docker.slirp][34911] <Notice>: Write offset=0 data=[tcp:0.0.0.0:33060:00018124] to file
+May 10 12:54:53 devi Docker[com.docker.slirp][34911] <Notice>: Created instance tcp:0.0.0.0:33060:00018124
+May 10 12:55:14 devi Docker[com.docker.driver.amd64-linux][34912] <Notice>:
+	virtio-9p: unexpected EOF reading -- did the 9P server crash?
+May 10 12:55:14 devi Docker[com.docker.osx.xhyve.linux][30448] <Notice>: Reap com.docker.slirp (pid 34911): exit status 1
+May 10 12:55:14 devi Docker[com.docker.osxfs][34910] <Error>: Fatal unexpected exception: Transfuse.Socket_closed
+May 10 12:55:14 devi Docker[com.docker.osx.xhyve.linux][30448] <Notice>: Reap com.docker.osxfs (pid 34910): exit status 1
+May 10 12:55:14 devi Docker[com.docker.backend][30453] <Notice>: VM has shutdown at 2016-05-10 12:55:14 -0700 PDT
+May 10 12:55:14 devi Docker[com.docker.osx.xhyve.linux][30448] <Notice>: Reap com.docker.driver.amd64-linux (pid 34912): exit status 0
+May 10 12:55:14 devi Docker[com.docker.app][30434] <Notice>: dockerState = starting
+May 10 12:55:15 devi Docker[com.docker.osx.xhyve.linux][30448] <Notice>: Stop 1 children with order 1: com.docker.driver.amd64-linux (pid 34912)
+May 10 12:55:15 devi Docker[com.docker.osx.xhyve.linux][30448] <Notice>: Stop 2 children with order 2: com.docker.osxfs (pid 34910), com.docker.slirp (pid 34911)
+May 10 12:55:15 devi Docker[com.docker.osx.xhyve.linux][30448] <Notice>: Starting com.docker.osxfs, com.docker.slirp, com.docker.driver.amd64-linux
+May 10 12:55:15 devi Docker[com.docker.osx.xhyve.linux][30448] <Notice>: Start com.docker.osxfs (pid 35596)
+May 10 12:55:15 devi Docker[com.docker.osx.xhyve.linux][30448] <Notice>: Start com.docker.slirp (pid 35597)
+May 10 12:55:15 devi Docker[com.docker.osx.xhyve.linux][30448] <Notice>: Start com.docker.driver.amd64-linux (pid 35598)
+May 10 12:55:15 devi Docker[com.docker.osxfs][35596] <Notice>: Logging to Apple System Log
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: Logging to Apple System Log
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: Setting handler to ignore all SIGPIPE signals
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: attempting to reconnect to database
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: reconnected transport layer
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: allowing binds to any IP addresses
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: starting in native mode port_control_path:fd:4 vsock_path:/var/tmp/com.docker.vsock/connect
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: Starting slirp server socket_path:fd:3 port_control_path:fd:4 vsock_path:/var/tmp/com.docker.vsock/connect pcap_settings:disabled peer_ip:192.168.65.2 local_ip:192.168.65.1
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: Starting slirp network stack on fd:3
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: Acquired hypervisor lock
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: Docker is not responding: waiting 0.5s
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: hypervisor: native
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: filesystem: osxfs
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: Hypervisor: native; BootProtocol: direct; UefiBootDisk: /Users/username/UefiBoot.qcow2
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35600] <Notice>: exec[35600]: /Applications/Docker.app/Contents/MacOS/com.docker.xhyve []string{"/Applications/Docker.app/Contents/MacOS/com.docker.xhyve", "-A", "-m", "2G", "-c", "4", "-u", "-s", "0:0,hostbridge", "-s", "31,lpc", "-s", "2:0,virtio-ipc,uuid=9f274149-68e8-4b0b-845b-016c6e7c66a2,path=/var/tmp/com.docker.slirp.socket,macfile=/Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/mac.0", "-s", "3,virtio-blk,file:///Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/Docker.qcow2,format=qcow", "-s", "4,virtio-9p,path=/var/tmp/com.docker.db.socket,tag=db", "-s", "5,virtio-rnd", "-s", "6,virtio-9p,path=/var/tmp/com.docker.port.socket,tag=port", "-s", "7,virtio-sock,guest_cid=3,path=/var/tmp/com.docker.vsock,guest_forwards=2376;1525", "-l", "com1,autopty=/Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty,log=/Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/console-ring", "-f", "kexec,/Applications/Docker.app/Contents/Resources/moby/vmlinuz64,/Applications/Docker.app/Contents/Resources/moby/initrd.img,earlyprintk=serial console=ttyS0 com.docker.driverDir=\"/Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux\", com.docker.database=\"com.docker.driver.amd64-linux\""}
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: May 10 12:55:15  Docker[35600] <Notice>: exec[35600]: /Applications/Docker.app/Contents/MacOS/com.docker.xhyve []string{"/Applications/Docker.app/Contents/MacOS/com.docker.xhyve", "-A", "-m", "2G", "-c", "4", "-u", "-s", "0:0,hostbridge", "-s", "31,lpc", "-s", "2:0,virtio-ipc,uuid=9f274149-68e8-4b0b-845b-016c6e7c66a2,path=/var/tmp/com.docker.slirp.socket,macfile=/Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/mac.0", "-s", "3,virtio-blk,file:///Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/Docker.qcow2,format=qcow", "-s", "4,virtio-9p,path=/var/tmp/com.docker.db.socket,tag=db", "-s", "5,virtio-rnd", "-s", "6,virtio-9p,path=/var/tmp/com.docker.port.socket,tag=port", "-s", "7,virtio-sock,guest_cid=3,path=/var/tmp/com.docker.vsock,guest_forwards=2376;1525", "-l", "com1,autopty=/Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty,log=/Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/console-ring", "-f", "kexec,/Applications/Docker.app/Contents/Resources/moby/vmlinuz64,/Applications/Docker.app/Contents/Resources/moby/initrd.img,earlyprintk=serial console=ttyS0 com.docker.driverDir=\"/Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux\", com.docker.database=\"com.docker.driver.amd64-linux\""}
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: time="2016-05-10T12:55:15-07:00" level=info msg="exec[35600]: /Applications/Docker.app/Contents/MacOS/com.docker.xhyve []string{\"/Applications/Docker.app/Contents/MacOS/com.docker.xhyve\", \"-A\", \"-m\", \"2G\", \"-c\", \"4\", \"-u\", \"-s\", \"0:0,hostbridge\", \"-s\", \"31,lpc\", \"-s\", \"2:0,virtio-ipc,uuid=9f274149-68e8-4b0b-845b-016c6e7c66a2,path=/var/tmp/com.docker.slirp.socket,macfile=/Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/mac.0\", \"-s\", \"3,virtio-blk,file:///Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/Docker.qcow2,format=qcow\", \"-s\", \"4,virtio-9p,path=/var/tmp/com.docker.db.socket,tag=db\", \"-s\", \"5,virtio-rnd\", \"-s\", \"6,virtio-9p,path=/var/tmp/com.docker.port.socket,tag=port\", \"-s\", \"7,virtio-sock,guest_cid=3,path=/var/tmp/com.docker.vsock,guest_forwards=2376;1525\", \"-l\", \"com1,autopty=/Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/tty,log=/Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/console-ring\", \"-f\", \"kexec,/Applications/Docker.app/Contents/Resources/moby/vmlinuz64,/Applications/Docker.app/Contents/Resources/moby/initrd.img,earlyprintk=serial console=ttyS0 com.docker.driverDir=\\\"/Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux\\\", com.docker.database=\\\"com.docker.driver.amd64-linux\\\"\"}\n"
+May 10 12:55:15 devi Docker[com.docker.xhyve][35600] <Notice>: Starting xhyve
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: May 10 12:55:15  Docker[35600] <Notice>: Starting xhyve
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: PPP.negotiate: received ((magic VMN3T)(version 13)(commit b4d942b304b7d7d0ee48d96e3b424ccfbcceca89))
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: PPP.negotiate: received (Ethernet 9f274149-68e8-4b0b-845b-016c6e7c66a2)
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: PPP.negotiate: sending ((mtu 1500)(max_packet_size 1550)(client_macaddr c0:ff:ee:c0:ff:ee))
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: mirage_block_open file:///Users/username/Library/Containers/com.docker.docker/Data/com.docker.driver.amd64-linux/Docker.qcow2 buffered = true
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: PPP.listen: called a second time: doing nothing
+May 10 12:55:15 devi Docker[com.docker.slirp][35597] <Notice>: TCP/IP ready
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: mirage_block_open returning 0
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: mirage_block_stat
+May 10 12:55:15 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: vsock init 7:0 = /var/tmp/com.docker.vsock, guest_cid = 3
+May 10 12:55:17 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: Docker is not responding: waiting 0.5s
+May 10 12:55:18 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: Docker is not responding: waiting 0.5s
+May 10 12:55:18 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: Docker is not responding: waiting 0.5s
+May 10 12:55:19 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: Docker is not responding: waiting 0.5s
+May 10 12:55:19 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: Docker is not responding: waiting 0.5s
+May 10 12:55:20 devi Docker[com.docker.osxfs][35596] <Error>: transfused: mount
+May 10 12:55:20 devi Docker[com.docker.osxfs][35596] <Error>: transfused: /bin/fusermount
+May 10 12:55:20 devi Docker[com.docker.osxfs][35596] <Error>: transfused: -o
+May 10 12:55:20 devi Docker[com.docker.osxfs][35596] <Error>: transfused: allow_other,max_read=1048576,subtype=osxfs
+May 10 12:55:20 devi Docker[com.docker.osxfs][35596] <Error>: transfused: /Mac
+May 10 12:55:20 devi Docker[com.docker.osxfs][35596] <Error>: transfused:
+May 10 12:55:20 devi Docker[com.docker.osxfs][35596] <Notice>: osxfs tracing: OFF
+May 10 12:55:21 devi Docker[com.docker.driver.amd64-linux][35598] <Notice>: Docker is responding
+May 10 12:55:21 devi Docker[com.docker.backend][30453] <Notice>: VM has started at 2016-05-10 12:55:21 -0700 PDT
+May 10 12:55:21 devi Docker[com.docker.vmnetd][35609] <Notice>: EOF reading packet from Unix domain socket: closing
+May 10 12:55:21 devi Docker[com.docker.vmnetd][35609] <Critical>: Failed to read hello from client
+May 10 12:55:21 devi Docker[com.docker.app][30434] <Notice>: dockerState = running

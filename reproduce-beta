@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+PROJECT_PATH="$( cd "$( dirname "$0" )" && pwd )"
+
+export HOST="127.0.0.1"
+
+exec ${PROJECT_PATH}/reproduce "$@"

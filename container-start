@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+# IFS=$'\n\t'
+
+export PASS=${1-root}
+export HOSTPORT=33060
+sleep=9
+
+docker run -d -e MYSQL_ROOT_PASSWORD=${PASS} -p ${HOSTPORT}:3306 mysql:5.7.12
+
+echo "Container starting, waiting ${sleep}s..."
+sleep ${sleep}
